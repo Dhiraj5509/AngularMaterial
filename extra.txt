@@ -1,0 +1,27 @@
+Angular material ui 
+
+
+ng g m material - it will give us the material.module.ts , in this file we can add our import that we are gonna use in our angular app , for better modularity. 
+
+1) Typography in angular material ui - we have total of 4 display classes that angular provides us  
+<mat-display-4> , ...-3 , ....-2 , ...-1
+We do have classes for title , headings and sub-headings accordingly -> https://material.angular.io/guide/typography
+
+
+2) buttons in angular material ui -> https://material.angular.io/components/button/overview
+
+3) mat-button-toggle-group -> it behaves like the radio button , checked and unchecked , we  can group them by using  mat-button-toggle-group
+we can make behave mat-button-toogle-group as an checkbox too , by "binding" multiple directive 
+
+4) mat-icon to display icons
+
+5) matBadge
+
+6) slidder
+
+7) spinner
+
+8) toolbar
+    |-- toolbar-row 
+
+9) menu ongoing     
