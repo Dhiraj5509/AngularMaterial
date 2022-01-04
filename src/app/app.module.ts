@@ -11,7 +11,13 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar' ; 
 import {MatSidenavModule} from '@angular/material/sidenav';
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatListModule} from '@angular/material/list' ; 
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { AccordionModule } from '@syncfusion/ej2-angular-navigations';
+import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent
@@ -27,7 +33,14 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatProgressSpinnerModule , 
     MatSliderModule , 
     MatToolbarModule , 
-    MatSidenavModule
+    MatSidenavModule , 
+    MatMenuModule , 
+    MatListModule , 
+    MatGridListModule , 
+    MatExpansionModule , 
+    AccordionModule , 
+    MatCardModule , 
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
