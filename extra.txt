@@ -8,7 +8,7 @@ ng g m material - it will give us the material.module.ts , in this file we can a
 We do have classes for title , headings and sub-headings accordingly -> https://material.angular.io/guide/typography
 
 
-2) buttons in angular material ui -> https://material.angular.io/components/button/overview
+2) buttons in angular material ui -> https://material.angular.io/components/button/examples
 
 3) mat-button-toggle-group -> it behaves like the radio button , checked and unchecked , we  can group them by using  mat-button-toggle-group
 we can make behave mat-button-toogle-group as an checkbox too , by "binding" multiple directive 
@@ -24,4 +24,19 @@ we can make behave mat-button-toogle-group as an checkbox too , by "binding" mul
 8) toolbar
     |-- toolbar-row 
 
-9) menu ongoing     
+9) menu 
+
+10) mat-list
+
+11) mat-selection-list
+
+12) mat-grid-list
+    | mat-grid-tile
+
+13) accordian 
+    | expansion panel     
+
+14) cards 
+
+15) mat-tab-group
+    | mat-tab
